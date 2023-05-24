@@ -1,0 +1,199 @@
+<html>
+    <head>
+        <title>
+        Portfolio</title>
+        <style>
+            body{
+                margin:0%;
+                border:0%;
+                background-image:url('pic/peakpx.jpg');
+ 
+                background-repeat:no-repeat;
+            background-attachment:scroll;
+            background-size:cover;
+            }
+            .nav a {
+                text-decoration:none;
+                color:white;
+                font-size:large;
+                font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                
+                
+            }
+            .nav{
+                background-color:rgba(97, 23, 93, 0.5);
+                padding-top:20px;
+                padding-bottom: 20px;
+                justify-content:space-evenly;
+                display:flex;
+                
+            }
+            .nav a::after {
+                content:'';
+                display:block;
+                background-color:white;
+                height: 2px;
+                transform:scaleX(0);
+                transition: transform 300ms
+
+            }
+        .nav a:hover::after{
+                transform:scaleX(1);
+            }
+            
+            .img img {
+                height:200px;
+                width:150px;
+                border-radius:50%;
+                box-shadow: 0 5px 40px rgba(0, 0, 0, 0.1);
+            }
+            .img {
+                padding:30px; 
+                
+            }
+            .img1 img{
+                height:200px;
+                width:150px;
+                border-radius:22px;
+                
+                box-shadow: 0 5px 40px rgba(0, 0, 0, 0.1);
+            }
+            .sum{
+                display:flex;
+                justify-content:space-evenly;
+                padding-top:170px;
+                padding-left:10%;
+                padding-right:15%;
+                
+            }
+            .exp{
+                padding-top:10px;
+                padding-left:20px;
+            }
+            .exp p{
+                background-color:rgba(139, 119, 138, 0.5);
+                border-radius:16px;
+                font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                color:white;
+                padding:40px;
+                font-size:large;
+            }
+            .exp p:hover{
+                
+                color:white;
+                transition: 0.50s; 
+                background-color:rgba(90, 31, 87, 0.8);
+            }
+            h1{
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                color:white;
+            }
+            h2{
+                font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-size:45px;
+                color:white;
+                font-weight:lighter;
+                padding-top:50px;
+                padding-left:10%;
+            }
+            .sum1{
+                display:flex;
+                justify-content:space-evenly;
+                padding-top:30px;
+                padding-left:10%;
+                padding-right:15%;
+                
+            }
+            p5{
+                font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-size:large;
+                color:white;
+                padding-left:20px;
+            }
+            .footer{
+                background-color:rgba(90, 31, 87);
+            }
+            p2{
+                color:white;
+            }
+            
+        
+
+        </style>
+    </head>
+    <body>
+        <div class="nav">
+            <a href="main.html">Home</a>
+            <a href="#summary">Summary</a>
+            <a href="#experience">Experience</a>
+            <a href="#skill">Skills</a>
+            <a href="#about">About</a>
+        </div>
+        <div class="sum">
+            <div class="img">
+                <img src="pic/profile.jpg" alt="">
+                <p5>Sudharsan B</p5>
+                
+            </div>
+            <div class="exp" id="summary">
+                <p>
+                    I  am from Dindigul, Tamil Nadu, I am a passionate and quick-learning BTech Computer Science and Engineering student from Lovely Professional University, Punjab, India. With an impressive JEE Mains score of 86 percentile and 8.5 CGPA in my first semester, I am motivated to build a successful career in the IT field. I am consistently updating my skillset, with a particular interest in Full Stack and Data Science. In my free time, I enjoy playing music, solving Rubik’s cube, reading books and staying fit. Currently in my second semester, I am continuing to work hard towards my goals.
+            </p></div>
+        </div>
+        <h2 id="experience">
+            Experiences
+        </h2>
+        <div class="sum1">
+            <div class="exp">
+                <h1>Personal Finance Management System</h1>
+                <p>
+                   This project was completely build by using python and python modules. Python for backend and Python Tkinter for front end and cx_Oracle for backend, it behave like local database api
+                   , this is a desktop applicaiton, we can able to store the price and item names we have purchased and it give complete analysis of our data.
+                </p>
+            </div>
+        </div>
+        <div class="sum1" >
+            <div class="exp">
+                <h1>Biodiversity Website</h1>
+                <p>In this Website we used HTML, CSS for complete frontend. We four people work together and done this biodiversity website with 4 webpages, it containes login
+                    , sign in, important of biodiversity and types of biodiversity. this website completely for providing awareness about conservation of biodiversity.
+                </p>
+            </div>
+        </div>
+        <div class="sum1">
+            <div class="exp">
+                <h1>KAVACH App
+                    Mobile application</h1>
+                <p>This Mobile Application was specially done in hackathon(Kavach Hackathon gov) we used Flutter, Dart, HTML, CSS,
+                    Django to build the complete application. Flutter is a library used to design a frontend part for mobile application.
+                    Dart is a supporting language for flutter. Dijango we used for backend with python support. HTML ,CSS for website for portfolio.
+                </p>
+            </div>
+        </div>
+
+        <h2>Skills
+            </h2>
+            <div class="sum1" id="skill">
+                <div class="img1">
+                    <img src="pic/diego-ph-fIq0tET6llw-unsplash.jpg" alt="">
+                </div>
+                
+                <div class="exp">
+                    
+                    <p>Python, C , SQL, HTML, CSS, Excel,<br> Openpyxl, Cx_Oracle,
+Tkinter, Kivy, Opencv
+
+                    </p>
+                </div>
+            </div>
+            
+            <div class="footer" id="about">
+                <div class="ff1">
+                    <p2><h1>Contact us:  </h1>+123456789</p2>
+                </div>
+                <div class="ff1">
+                    <p2><h1>About us: </h1>_  linkedin: https://www.linkedin.com/in/sudharsan-baskaran-182bb4255/details/projects/</p2>
+                </div>
+            </div>
+    </body>
+</html>
